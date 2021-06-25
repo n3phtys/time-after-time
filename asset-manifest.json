@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/time-after-time/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/time-after-time/static/js/main.414e61e5.chunk.js",
-    "main.js.map": "/time-after-time/static/js/main.414e61e5.chunk.js.map",
-    "runtime-main.js": "/time-after-time/static/js/runtime-main.af2894b8.js",
-    "runtime-main.js.map": "/time-after-time/static/js/runtime-main.af2894b8.js.map",
-    "static/js/2.019975bf.chunk.js": "/time-after-time/static/js/2.019975bf.chunk.js",
-    "static/js/2.019975bf.chunk.js.map": "/time-after-time/static/js/2.019975bf.chunk.js.map",
-    "static/js/3.541a2264.chunk.js": "/time-after-time/static/js/3.541a2264.chunk.js",
-    "static/js/3.541a2264.chunk.js.map": "/time-after-time/static/js/3.541a2264.chunk.js.map",
+    "main.js": "/time-after-time/static/js/main.d6ddd34b.chunk.js",
+    "main.js.map": "/time-after-time/static/js/main.d6ddd34b.chunk.js.map",
+    "runtime-main.js": "/time-after-time/static/js/runtime-main.85cb0261.js",
+    "runtime-main.js.map": "/time-after-time/static/js/runtime-main.85cb0261.js.map",
+    "static/css/2.3ab4f688.chunk.css": "/time-after-time/static/css/2.3ab4f688.chunk.css",
+    "static/js/2.4314db36.chunk.js": "/time-after-time/static/js/2.4314db36.chunk.js",
+    "static/js/2.4314db36.chunk.js.map": "/time-after-time/static/js/2.4314db36.chunk.js.map",
+    "static/js/3.d8d5ab1d.chunk.js": "/time-after-time/static/js/3.d8d5ab1d.chunk.js",
+    "static/js/3.d8d5ab1d.chunk.js.map": "/time-after-time/static/js/3.d8d5ab1d.chunk.js.map",
     "index.html": "/time-after-time/index.html",
+    "static/css/2.3ab4f688.chunk.css.map": "/time-after-time/static/css/2.3ab4f688.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/time-after-time/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.019975bf.chunk.js.LICENSE.txt": "/time-after-time/static/js/2.019975bf.chunk.js.LICENSE.txt",
+    "static/js/2.4314db36.chunk.js.LICENSE.txt": "/time-after-time/static/js/2.4314db36.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/time-after-time/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af2894b8.js",
-    "static/js/2.019975bf.chunk.js",
+    "static/js/runtime-main.85cb0261.js",
+    "static/css/2.3ab4f688.chunk.css",
+    "static/js/2.4314db36.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.414e61e5.chunk.js"
+    "static/js/main.d6ddd34b.chunk.js"
   ]
 }
