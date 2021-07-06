@@ -20,15 +20,9 @@ class Time {
     const remainingMin = fullMin;
     const additionalHours = Math.floor(fullMin / 60);
     return (
-      (
-        "" +
-        (this.hours +
-          duration.hours() +
-          Math.floor(fullMin / 60) +
-          additionalHours)
-      ).padStart(2, "") +
+      ("" + (this.hours + duration.hours() + additionalHours)).padStart(2, "") +
       ":" +
-      ("" + Math.ceil(fullMin % 60)).padStart(2, "")
+      ("" + Math.ceil(fullMin % 60)).padStart(2, "0")
     );
   }
 
@@ -102,10 +96,6 @@ class AppState {
   writeToUrl() {
     window.location.hash = this.asUrlFragment();
   }
-
-  get totalDurationString() {}
-
-  get endOfDayString() {}
 
   asUrlFragment() {
     let str = "p/";
@@ -187,7 +177,7 @@ function TimeStepList(props) {
     };
     return (
       <li key={index}>
-        {index % 2 == 0 ? "IN" : "OUT"}{" "}
+        {index % 2 === 0 ? "IN" : "OUT"}{" "}
         <input type="time" value={step} onChange={onChange} />
         <button onClick={onDelete}>X</button>
       </li>
